@@ -10,7 +10,7 @@ using namespace std;
 struct DatabaseManager
 {
     
-    const char* path = "/home/levitomato/Develop/hamal/hamal_embedded/resources/hamal.db";
+    const char* path = "./resources/database.db";
     sqlite3 *db;
     char *errMsg = 0;
 
